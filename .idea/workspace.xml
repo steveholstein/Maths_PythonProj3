@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="155cbc1e-6e17-49b7-ab08-414836b9f334" name="Changes" comment="maths formulas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integral_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/integral_output.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,27 +25,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Mathcode2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathcode3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathtest1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode3_HTML1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1HTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathscode4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hello/PycharmProjects/Maths_PythonProj1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Mathcode2.executor": "Run",
+    "Python.Mathcode3.executor": "Run",
+    "Python.Mathtest1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mathcode3_HTML1.executor": "Run",
+    "Python.mathcode4_latex1.executor": "Run",
+    "Python.mathcode4_latex1HTML.executor": "Run",
+    "Python.mathcode4_latex5sizeHTML.executor": "Run",
+    "Python.mathcode4_latex6sizeHTML.executor": "Run",
+    "Python.mathcode5_latex1sizePDF.executor": "Run",
+    "Python.mathcode6_latex1HTMLtoPDF.executor": "Run",
+    "Python.mathscode4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/hello/PycharmProjects/Maths_PythonProj3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hello\PycharmProjects\Maths_PythonProj1" />
@@ -152,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714476140999</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714477382917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714477382917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

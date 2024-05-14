@@ -1,11 +1,54 @@
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Math Display</title>
+    <!-- MathJax Configuration -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+    <!-- Custom Styles -->
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center;     /* Center content vertically */
+        }
+        
+        .math-container {
+            font-size: 5.5em;           /* Increased size by about 25% from initial value of '2em' */
+
+            /* Move container up by adjusting its position relative to its normal position */
+            position:relative;
+             top:0px ;                 /* Moves upwards approximately equivalent to around ~3 -4 lines depending on line-height.*/
+             transform :translateY(-100px) translateX(0px);         /* Adjust this value if more fine-tuning needed.*/
+                      
+        }
+        h1 {
+            font-size: 5.5em;
+            color: #333;
+            text-align: centre;
+            position:absolute;
+            top:0px ;
+            transform :translateY(0px) transform :translateX(0px);                
+        }
+     
+   </style>
+
 </head>
 <body>
-    <h1>Integral Result:</h1>
-    \[ \frac{3 \sqrt{2} \sqrt{\pi} S\left(\frac{\sqrt{2} x}{\sqrt{\pi}}\right) \Gamma\left(\frac{3}{4}\right)}{8 \Gamma\left(\frac{7}{4}\right)} \]
+
+
+<h1>Displaying Calculus Integration:</h1>
+
+<!-- Embedding Latex Code Directly with class for styling -->
+<div class="math-container">\(\displaystyle\int_{0}^{\pi}\! \normalsize(\sin{\left(x^{2} \right)} + \cos{\left(x \right)}\normalsize) \mathrm{d}x\)</div>
+
 </body>
 </html>
